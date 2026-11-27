@@ -1,7 +1,8 @@
 def calculate_parking_fee():
     print("--- Parking Fee Calculator ---")
     print("Vehicle Types: Two-wheeler, Four-wheeler, Heavy vehicle")
-    
+
+    vehicle_Number = input("Enter vehicle number (e.g., KA-25-AB-1234): ").strip().upper()
     vehicle_type = input("Enter vehicle type: ").strip().lower()
     hours = float(input("Enter parking duration (in hours): "))
 
